@@ -1,5 +1,5 @@
 //Fahrenheit
-var fahrenheit = 115 ;
+var fahrenheit = 32 ;
 
 // Conversions
 var fahrenheitToCelsius = (fahrenheit - 32) / 1.8;
@@ -13,7 +13,7 @@ console.log( "Kelvin: " + fahrenheitToKelvin );
 
 
 //Celsius
-var celsius = 30;
+var celsius = 0;
 
 //Conversions
 var celsiusToFahrenheit = (celsius * 1.8) + 32;
@@ -27,7 +27,7 @@ console.log( "Kelvin: " + celsiusToKelvin );
 
 
 //Kelvin
-var kelvin = 400;
+var kelvin = 273.15;
 
 //Conversion
 var kelvinToFahrenheit = (kelvin - 273.15) * 1.8 + 32;
@@ -38,3 +38,8 @@ console.log("Starting with Kelvin");
 console.log( "Fahrenheit: " + kelvinToFahrenheit );
 console.log( "Celsius: " + kelvinToCelsius );
 console.log( "Kelvin: " + kelvin );
+
+//Temperature Conversion Arrays
+var fahrenheitTemps = [ fahrenheit, fahrenheitToCelsius, fahrenheitToKelvin ];
+var celsiusTemps = [ celsius, celsiusToFahrenheit, celsiusToKelvin ];
+var kelvinTemps = [ kelvin, kelvinToFahrenheit, kelvinToCelsius ];
